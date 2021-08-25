@@ -1,7 +1,6 @@
 # Step 1
 # Change DNAC IP to the one you are using
-
-DNAC_IP = "sandboxdnac.cisco.com"
+URL = "https://sandboxdnac.cisco.com/api/v1/network-device"
 DNAC_PORT = 443
 # Step 2
 # Enter user name and password to get a service ticket

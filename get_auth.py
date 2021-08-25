@@ -1,7 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
-from dnac_config import DNAC_IP, USERNAME, PASSWORD
+from dnac_config import URL, USERNAME, PASSWORD
 
 requests.packages.urllib3.disable_warnings()
 
@@ -22,4 +22,4 @@ if __name__ == "__main__":
     
     get_auth_token()
 
-auth_token = get_auth_token()
+token = get_auth_token()
